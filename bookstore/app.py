@@ -12,7 +12,7 @@ categories = [
     [1, "Biographies"],
     [2, "Learn to Play"],
     [3, "Music Theory"],
-    [4, "Scores and Charts],
+    [4, "Scores and Charts"],
     ]
 
 # Create a list called books. The elements in the list should be lists that contain the following information in this order:
@@ -73,7 +73,7 @@ books = [
 # set up routes
 @app.route('/')
 def home():
-       """
+    """
     Home page: show welcome text + categories.
     We pass the categories list so index.html can loop over it.
     """
@@ -82,7 +82,7 @@ def home():
 
 @app.route('/category')
 def category():
-        """
+    """
     Category page.
     URL will look like: /category?category=1
     """
